@@ -1,0 +1,11 @@
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\bin\Debug\netcoreapp3.1\LoopingThroughArrays.exe
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\bin\Debug\netcoreapp3.1\LoopingThroughArrays.deps.json
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\bin\Debug\netcoreapp3.1\LoopingThroughArrays.runtimeconfig.json
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\bin\Debug\netcoreapp3.1\LoopingThroughArrays.runtimeconfig.dev.json
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\bin\Debug\netcoreapp3.1\LoopingThroughArrays.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\bin\Debug\netcoreapp3.1\LoopingThroughArrays.pdb
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\obj\Debug\netcoreapp3.1\LoopingThroughArrays.csprojAssemblyReference.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\obj\Debug\netcoreapp3.1\LoopingThroughArrays.AssemblyInfoInputs.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\obj\Debug\netcoreapp3.1\LoopingThroughArrays.AssemblyInfo.cs
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\obj\Debug\netcoreapp3.1\LoopingThroughArrays.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\LoopingThroughArrays\obj\Debug\netcoreapp3.1\LoopingThroughArrays.pdb
