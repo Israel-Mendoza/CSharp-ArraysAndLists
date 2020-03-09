@@ -1,0 +1,11 @@
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\bin\Debug\netcoreapp3.1\MultiDimendionalArrays.exe
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\bin\Debug\netcoreapp3.1\MultiDimendionalArrays.deps.json
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\bin\Debug\netcoreapp3.1\MultiDimendionalArrays.runtimeconfig.json
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\bin\Debug\netcoreapp3.1\MultiDimendionalArrays.runtimeconfig.dev.json
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\bin\Debug\netcoreapp3.1\MultiDimendionalArrays.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\bin\Debug\netcoreapp3.1\MultiDimendionalArrays.pdb
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\obj\Debug\netcoreapp3.1\MultiDimendionalArrays.csprojAssemblyReference.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\obj\Debug\netcoreapp3.1\MultiDimendionalArrays.AssemblyInfoInputs.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\obj\Debug\netcoreapp3.1\MultiDimendionalArrays.AssemblyInfo.cs
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\obj\Debug\netcoreapp3.1\MultiDimendionalArrays.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\MultiDimendionalArrays\obj\Debug\netcoreapp3.1\MultiDimendionalArrays.pdb
