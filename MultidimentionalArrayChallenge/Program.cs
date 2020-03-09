@@ -14,50 +14,69 @@ namespace MultidimentionalArrayChallenge
                 { 7, 8, 9}
             };
         static int currentPlayerID = 100;
+        static int playedTurns = 0;
 
 
         static void Main(string[] args)
         {
 
-            selectPlayerToken();
-            mainGameLoop();
+            SelectPlayerToken();
+
+            Console.WriteLine($"Player 1: {playerOne}");
+            Console.WriteLine($"Player 2: {playerTwo}");
+            MainGameLoop();
 
         }
 
-        static void mainGameLoop()
+        /// <summary>Method <c>MainGameLoop</c> runs the main game loop</summary>
+        static void MainGameLoop()
         {
             int choice;
-            bool gameOver;
-            string playerName;
             while (true)
             {
                 Console.Clear();
-                drawBoard(fields, playerOne, playerTwo);
-                choice = getAvailableInt(fields);
-                updateArray(fields, choice, currentPlayerID);
-                gameOver = checkWinner(fields, currentPlayerID);
-                if (GameDraw(fields))
+                string playerName = currentPlayerID == 100 ? "Player 1" : "Player 2";
+                DrawBoard(fields, playerOne, playerTwo);
+                Console.WriteLine($"It's {playerName}'s turn (\"{(currentPlayerID == 100 ? playerOne : playerTwo)}\")!");
+                choice = GetAvailableInt(fields);
+                UpdateArray(fields, choice, currentPlayerID);
+                playedTurns++;
+                
+                if (CheckWinner(fields, currentPlayerID))
+                {
+                    EndGameWithWinner(currentPlayerID);
                     break;
-                if (gameOver)
+                }
+                    
+                if (playedTurns == 9)
+                {
+                    EndGameWithDraw();
                     break;
+                }  
                 currentPlayerID = currentPlayerID == 100 ? 200 : 100;
-            }
-            Console.Clear();
-            drawBoard(fields, playerOne, playerTwo);
-            if (GameDraw(fields))
-            {
-                Console.WriteLine("DRAW!!!");
-                Console.ReadKey();
-            }
-            else
-            {
-                playerName = currentPlayerID == 100 ? "Player 1" : "Player";
-                Console.WriteLine($"{playerName} has won... CONGRATULATIONS!!!");
-                Console.ReadKey();
             }
         }
         
-        static void selectPlayerToken()
+        
+        static void EndGameWithWinner(int playerID)
+        {
+            Console.Clear();
+            DrawBoard(fields, playerOne, playerTwo);
+            string playerName = playerID == 100 ? "Player 1" : "Player 2";
+            Console.WriteLine($"\n\n{playerName} has won... CONGRATULATIONS!!!");
+            Console.ReadKey();
+        }
+
+        static void EndGameWithDraw()
+        {
+            Console.Clear();
+            DrawBoard(fields, playerOne, playerTwo);
+            Console.WriteLine("\n\nDRAW!!!");
+            Console.ReadKey();
+        }
+        
+        /// <summary>Method <c>SelectPlayerToken</c> allows Player 1 choose their token, either "O" or "X"</summary>
+        static void SelectPlayerToken()
         {
             Console.WriteLine("Player 1 gets to choose their token...");
             while (true)
@@ -67,7 +86,7 @@ namespace MultidimentionalArrayChallenge
                 if (playerTokenChosen.ToUpper() == "O" || playerTokenChosen.ToUpper() == "X")
                 {
                     playerOne = playerTokenChosen.ToUpper();
-                    playerTwo = playerOne == "X" ? "0" : "X";
+                    playerTwo = playerOne == "X" ? "O" : "X";
                     break;
                 }
                 else
@@ -82,17 +101,18 @@ namespace MultidimentionalArrayChallenge
             Console.Clear();
         }
 
-        static void drawBoard(int[,] twoDArray, string playerOneToken, string playerTwoToken)
+        /// <summary>Method <c>DrawBoard</c> draws the game board on the cosole with the current values</summary>
+        static void DrawBoard(int[,] twoDArray, string playerOneToken, string playerTwoToken)
         {
-            string one = getDisplayChar(twoDArray[0, 0], playerOneToken, playerTwoToken);
-            string two = getDisplayChar(twoDArray[0, 1], playerOneToken, playerTwoToken);
-            string three = getDisplayChar(twoDArray[0, 2], playerOneToken, playerTwoToken);
-            string four = getDisplayChar(twoDArray[1, 0], playerOneToken, playerTwoToken);
-            string five = getDisplayChar(twoDArray[1, 1], playerOneToken, playerTwoToken);
-            string six = getDisplayChar(twoDArray[1, 2], playerOneToken, playerTwoToken);
-            string seven = getDisplayChar(twoDArray[2, 0], playerOneToken, playerTwoToken);
-            string eight = getDisplayChar(twoDArray[2, 1], playerOneToken, playerTwoToken);
-            string nine = getDisplayChar(twoDArray[2, 2], playerOneToken, playerTwoToken);
+            string one = GetDisplayChar(twoDArray[0, 0], playerOneToken, playerTwoToken);
+            string two = GetDisplayChar(twoDArray[0, 1], playerOneToken, playerTwoToken);
+            string three = GetDisplayChar(twoDArray[0, 2], playerOneToken, playerTwoToken);
+            string four = GetDisplayChar(twoDArray[1, 0], playerOneToken, playerTwoToken);
+            string five = GetDisplayChar(twoDArray[1, 1], playerOneToken, playerTwoToken);
+            string six = GetDisplayChar(twoDArray[1, 2], playerOneToken, playerTwoToken);
+            string seven = GetDisplayChar(twoDArray[2, 0], playerOneToken, playerTwoToken);
+            string eight = GetDisplayChar(twoDArray[2, 1], playerOneToken, playerTwoToken);
+            string nine = GetDisplayChar(twoDArray[2, 2], playerOneToken, playerTwoToken);
             
             Console.WriteLine($"   |   |   ");
             Console.WriteLine($" {one} | {two} | {three} ");
@@ -105,7 +125,8 @@ namespace MultidimentionalArrayChallenge
             Console.WriteLine($"   |   |   ");
         }
 
-        static string getDisplayChar(int valueToDisplay, string playerOneToken, string playerTwoToken)
+        /// <summary>Method <c>GetDisplayChar</c> returns the item to be written in the board on the console based on the value in the array</summary>
+        static string GetDisplayChar(int valueToDisplay, string playerOneToken, string playerTwoToken)
         {
             
             switch (valueToDisplay)
@@ -137,7 +158,8 @@ namespace MultidimentionalArrayChallenge
             }
         }
 
-        static void updateArray(int[,] anArray, int selectedSpot, int playerID)
+        /// <summary>Method <c>UpdateArray</c> updates the array based on the player's choice</summary>
+        static void UpdateArray(int[,] anArray, int selectedSpot, int playerID)
         {
             switch (selectedSpot)
             {
@@ -170,8 +192,9 @@ namespace MultidimentionalArrayChallenge
                     break;
             }
         }
-        
-        static bool checkWinner(int[,] twoDArray, int playerID)
+
+        /// <summary>Method <c>CheckWinner</c> returns True if the passed player has won the game</summary>
+        static bool CheckWinner(int[,] twoDArray, int playerID)
         {
             if (playerID == twoDArray[0, 0] && playerID == twoDArray[0, 1] && playerID == twoDArray[0, 2])
                 return true;
@@ -195,25 +218,13 @@ namespace MultidimentionalArrayChallenge
             }
         }
 
-        static bool GameDraw(int[,] twoDArray)
-        {
-            for (int i = 0; i < twoDArray.GetLength(0); i++)
-            {
-                for (int j = 0; j < twoDArray.GetLength(1); j++)
-                {
-                    if (twoDArray[i, j] != 100 && twoDArray[i, j] != 200)
-                    {
-                        return false;
-                    }
-                }
-            }
-            return true;
-        }
-        static int getAvailableInt(int[,] twoDArray)
+        /// <summary>Method <c>GetAvailableInt</c> prompts the player to select a number until they choose an available one. 
+        /// Returns the available spot in the array (int)</summary>
+        static int GetAvailableInt(int[,] twoDArray)
         {
             while (true)
             {
-                int userChoice = getValidInt();
+                int userChoice = GetValidInt();
                 int choiceInBoard = 0;
                 switch (userChoice)
                 {
@@ -255,7 +266,8 @@ namespace MultidimentionalArrayChallenge
             
         }
 
-        static int getValidInt()
+        /// <summary>Method <c>GetValidInt</c> prompts player to select a valid number between 1 and 9. Returns that number</summary>
+        static int GetValidInt()
         {
             while (true)
             {
