@@ -1,0 +1,11 @@
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\bin\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.exe
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\bin\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.deps.json
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\bin\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.runtimeconfig.json
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\bin\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.runtimeconfig.dev.json
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\bin\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\bin\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.pdb
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\obj\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.csprojAssemblyReference.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\obj\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.AssemblyInfoInputs.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\obj\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.AssemblyInfo.cs
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\obj\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\MultidimentionalArrayChallenge\obj\Debug\netcoreapp3.1\MultidimentionalArrayChallenge.pdb
