@@ -36,14 +36,25 @@ namespace MultidimentionalArrayChallenge
                 choice = getAvailableInt(fields);
                 updateArray(fields, choice, currentPlayerID);
                 gameOver = checkWinner(fields, currentPlayerID);
+                if (GameDraw(fields))
+                    break;
                 if (gameOver)
                     break;
                 currentPlayerID = currentPlayerID == 100 ? 200 : 100;
             }
             Console.Clear();
             drawBoard(fields, playerOne, playerTwo);
-            playerName = currentPlayerID == 100 ? "Player 1" : "Player";
-            Console.WriteLine($"{playerName} has won... CONGRATULATIONS!!!");
+            if (GameDraw(fields))
+            {
+                Console.WriteLine("DRAW!!!");
+                Console.ReadKey();
+            }
+            else
+            {
+                playerName = currentPlayerID == 100 ? "Player 1" : "Player";
+                Console.WriteLine($"{playerName} has won... CONGRATULATIONS!!!");
+                Console.ReadKey();
+            }
         }
         
         static void selectPlayerToken()
@@ -184,6 +195,20 @@ namespace MultidimentionalArrayChallenge
             }
         }
 
+        static bool GameDraw(int[,] twoDArray)
+        {
+            for (int i = 0; i < twoDArray.GetLength(0); i++)
+            {
+                for (int j = 0; j < twoDArray.GetLength(1); j++)
+                {
+                    if (twoDArray[i, j] != 100 && twoDArray[i, j] != 200)
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
         static int getAvailableInt(int[,] twoDArray)
         {
             while (true)
