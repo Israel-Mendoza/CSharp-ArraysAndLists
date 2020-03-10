@@ -1,0 +1,11 @@
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\bin\Debug\netcoreapp3.1\ArraysAsParameters.exe
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\bin\Debug\netcoreapp3.1\ArraysAsParameters.deps.json
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\bin\Debug\netcoreapp3.1\ArraysAsParameters.runtimeconfig.json
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\bin\Debug\netcoreapp3.1\ArraysAsParameters.runtimeconfig.dev.json
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\bin\Debug\netcoreapp3.1\ArraysAsParameters.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\bin\Debug\netcoreapp3.1\ArraysAsParameters.pdb
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\obj\Debug\netcoreapp3.1\ArraysAsParameters.AssemblyInfoInputs.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\obj\Debug\netcoreapp3.1\ArraysAsParameters.AssemblyInfo.cs
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\obj\Debug\netcoreapp3.1\ArraysAsParameters.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\obj\Debug\netcoreapp3.1\ArraysAsParameters.pdb
+C:\Users\Israel Mendoza\source\repos\Arrays\ArraysAsParameters\obj\Debug\netcoreapp3.1\ArraysAsParameters.csprojAssemblyReference.cache

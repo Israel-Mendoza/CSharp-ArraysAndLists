@@ -1,0 +1,10 @@
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\bin\Debug\netcoreapp3.1\JaggedArrayChallenge.exe
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\bin\Debug\netcoreapp3.1\JaggedArrayChallenge.deps.json
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\bin\Debug\netcoreapp3.1\JaggedArrayChallenge.runtimeconfig.json
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\bin\Debug\netcoreapp3.1\JaggedArrayChallenge.runtimeconfig.dev.json
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\bin\Debug\netcoreapp3.1\JaggedArrayChallenge.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\bin\Debug\netcoreapp3.1\JaggedArrayChallenge.pdb
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\obj\Debug\netcoreapp3.1\JaggedArrayChallenge.AssemblyInfoInputs.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\obj\Debug\netcoreapp3.1\JaggedArrayChallenge.AssemblyInfo.cs
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\obj\Debug\netcoreapp3.1\JaggedArrayChallenge.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\JaggedArrayChallenge\obj\Debug\netcoreapp3.1\JaggedArrayChallenge.pdb
