@@ -1,0 +1,11 @@
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\bin\Debug\netcoreapp3.1\Lists.exe
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\bin\Debug\netcoreapp3.1\Lists.deps.json
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\bin\Debug\netcoreapp3.1\Lists.runtimeconfig.json
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\bin\Debug\netcoreapp3.1\Lists.runtimeconfig.dev.json
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\bin\Debug\netcoreapp3.1\Lists.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\bin\Debug\netcoreapp3.1\Lists.pdb
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\obj\Debug\netcoreapp3.1\Lists.AssemblyInfoInputs.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\obj\Debug\netcoreapp3.1\Lists.AssemblyInfo.cs
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\obj\Debug\netcoreapp3.1\Lists.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\obj\Debug\netcoreapp3.1\Lists.pdb
+C:\Users\Israel Mendoza\source\repos\Arrays\Lists\obj\Debug\netcoreapp3.1\Lists.csprojAssemblyReference.cache

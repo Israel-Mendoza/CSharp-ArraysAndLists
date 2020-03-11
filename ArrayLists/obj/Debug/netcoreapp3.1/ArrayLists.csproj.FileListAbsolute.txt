@@ -1,0 +1,11 @@
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\bin\Debug\netcoreapp3.1\ArrayLists.exe
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\bin\Debug\netcoreapp3.1\ArrayLists.deps.json
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\bin\Debug\netcoreapp3.1\ArrayLists.runtimeconfig.json
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\bin\Debug\netcoreapp3.1\ArrayLists.runtimeconfig.dev.json
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\bin\Debug\netcoreapp3.1\ArrayLists.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\bin\Debug\netcoreapp3.1\ArrayLists.pdb
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\obj\Debug\netcoreapp3.1\ArrayLists.csprojAssemblyReference.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\obj\Debug\netcoreapp3.1\ArrayLists.AssemblyInfoInputs.cache
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\obj\Debug\netcoreapp3.1\ArrayLists.AssemblyInfo.cs
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\obj\Debug\netcoreapp3.1\ArrayLists.dll
+C:\Users\Israel Mendoza\source\repos\Arrays\ArrayLists\obj\Debug\netcoreapp3.1\ArrayLists.pdb

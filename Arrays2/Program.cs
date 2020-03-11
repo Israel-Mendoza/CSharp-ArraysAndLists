@@ -50,9 +50,9 @@ namespace Arrays2
 
         }
 
-        static void ArrayPrinter(string[] anArray)
+        static void ArrayPrinter(object[] anArray)
         {
-            foreach (string item in anArray)
+            foreach (object item in anArray)
             {
                 Console.WriteLine($"\t{item}");
             }
